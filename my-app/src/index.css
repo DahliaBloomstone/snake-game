@@ -3,23 +3,25 @@
   margin: 50px auto;
   width: 600px;
   height: 600px;
-  border: 2px solid #000;
+  border: 2px solid rgb(240, 10, 152);
+  background-image: url("https://i.pinimg.com/originals/24/1a/ca/241aca6abe6f2f512e206bff1d807ea5.gif");
 }
 
 .snake-dot {
   position: absolute;
-  width: 2%;
-  height: 2%;
-  background-color: #000;
-  border: 1px solid #fff;
-  z-index: 2;
+  width: 5%;
+  height: 5%;
+  background-color: pink;
+  border: 5px solid #fff;
+  z-index: 5;
 }
 
 .snake-food {
   position: absolute;
-  width: 2%;
-  height: 2%;
-  background: red;
-  border: 1px solid #fff;
-  z-index: 1;
+  width: 5%;
+  height: 5%;
+  background: rgb(95, 141, 226);
+  border: 5px solid #fff;
+  z-index: 5;
 }
+
